@@ -20,12 +20,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="examples" Type="Folder">
+			<Item Name="Example One Stage.vi" Type="VI" URL="../examples/Example One Stage.vi"/>
+			<Item Name="Example Two Stages.vi" Type="VI" URL="../examples/Example Two Stages.vi"/>
+			<Item Name="Example Three Stage.vi" Type="VI" URL="../examples/Example Three Stage.vi"/>
+		</Item>
 		<Item Name="Axis.lvclass" Type="LVClass" URL="../Class/Axis/Axis.lvclass"/>
 		<Item Name="Communication.lvclass" Type="LVClass" URL="../Class/Communication/Communication.lvclass"/>
 		<Item Name="Controller.lvclass" Type="LVClass" URL="../Class/Controller/Controller.lvclass"/>
-		<Item Name="Example One Stage.vi" Type="VI" URL="../Example One Stage.vi"/>
-		<Item Name="Example Two Stages.vi" Type="VI" URL="../Example Two Stages.vi"/>
-		<Item Name="Example Three Stage.vi" Type="VI" URL="../Example Three Stage.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
