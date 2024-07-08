@@ -1,4 +1,4 @@
-# Instrument.Template Package
+# Xeryon Rotator XRT-U
 
 ## Installation & Usage
 
