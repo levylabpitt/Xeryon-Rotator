@@ -10,6 +10,25 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="drivers" Type="Folder">
+			<Item Name="Class" Type="Folder">
+				<Item Name="Axis.lvclass" Type="LVClass" URL="../drivers/Class/Axis/Axis.lvclass"/>
+				<Item Name="Communication.lvclass" Type="LVClass" URL="../drivers/Class/Communication/Communication.lvclass"/>
+				<Item Name="Controller.lvclass" Type="LVClass" URL="../drivers/Class/Controller/Controller.lvclass"/>
+			</Item>
+			<Item Name="examples" Type="Folder">
+				<Item Name="Example One Stage.vi" Type="VI" URL="../drivers/examples/Example One Stage.vi"/>
+				<Item Name="Example Three Stage.vi" Type="VI" URL="../drivers/examples/Example Three Stage.vi"/>
+				<Item Name="Example Two Stages.vi" Type="VI" URL="../drivers/examples/Example Two Stages.vi"/>
+			</Item>
+			<Item Name="settings_default.txt" Type="Document" URL="../drivers/settings_default.txt"/>
+			<Item Name="settings_default_backup.txt" Type="Document" URL="../drivers/settings_default_backup.txt"/>
+			<Item Name="settings_default_rotate.txt" Type="Document" URL="../drivers/settings_default_rotate.txt"/>
+			<Item Name="settings_default_two_stage_example.txt" Type="Document" URL="../drivers/settings_default_two_stage_example.txt"/>
+			<Item Name="settings_default_xls.txt" Type="Document" URL="../drivers/settings_default_xls.txt"/>
+			<Item Name="Xeryon.lvproj" Type="Document" URL="../drivers/Xeryon.lvproj"/>
+		</Item>
+		<Item Name="Example One Stage_Patrick.vi" Type="VI" URL="../drivers/examples/Example One Stage_Patrick.vi"/>
 		<Item Name="Inst UI.Xeryon-Rotator.lvclass" Type="LVClass" URL="../SMOs/Inst UI.Xeryon-Rotator/Inst UI.Xeryon-Rotator.lvclass"/>
 		<Item Name="Inst.Xeryon-Rotator.lvclass" Type="LVClass" URL="../SMOs/Inst.Xeryon-Rotator/Inst.Xeryon-Rotator.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -565,6 +584,9 @@
 				<Item Name="VariantFlattenExp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantFlattenExp.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
+				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
+				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
+				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Duration.vi"/>
 				<Item Name="Waveform to XY Pairs.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform to XY Pairs.vi"/>
 				<Item Name="WDT Append Waveforms CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms CDB.vi"/>
