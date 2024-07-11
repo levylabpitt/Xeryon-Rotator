@@ -31,7 +31,7 @@
 			<Item Name="settings_default_xls.txt" Type="Document" URL="/&lt;userlib&gt;/LevyLab/Xeryon-Rotator/lvsrc/drivers/settings_default_xls.txt"/>
 			<Item Name="Xeryon.lvproj" Type="Document" URL="/&lt;userlib&gt;/LevyLab/Xeryon-Rotator/lvsrc/drivers/Xeryon.lvproj"/>
 		</Item>
-		<Item Name="Example One Stage_Patrick.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Xeryon-Rotator/lvsrc/drivers/examples/Example One Stage_Patrick.vi"/>
+		<Item Name="Example One Stage_Patrick_JKISM.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Xeryon-Rotator/lvsrc/drivers/examples/Example One Stage_Patrick_JKISM.vi"/>
 		<Item Name="Test Xeryon API.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Xeryon-Rotator/lvsrc/SMOs/Inst.Xeryon-Rotator/Test Xeryon API.vi"/>
 		<Item Name="Inst UI.Xeryon-Rotator.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Xeryon-Rotator/lvsrc/SMOs/Inst UI.Xeryon-Rotator/Inst UI.Xeryon-Rotator.lvclass"/>
 		<Item Name="Inst.Xeryon-Rotator.lvclass" Type="LVClass" URL="/&lt;userlib&gt;/LevyLab/Xeryon-Rotator/lvsrc/SMOs/Inst.Xeryon-Rotator/Inst.Xeryon-Rotator.lvclass"/>
