@@ -1390,8 +1390,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D5126654-D31D-4BEB-B20E-5CC92D3E6ECE}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Xeryon-Rotator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/application/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1400,7 +1401,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3F74C4DB-6D42-4837-B7EA-92F1EE164877}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2BEEC4B3-8447-4AAE-9CB0-47750A3D85F0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Inst.Xeryon-Rotator.lvclass/Inst.Xeryon-Rotator.AppLauncher.vi</Property>
@@ -1505,7 +1506,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{F86D6A21-D51A-4FFF-A54F-3F80330D1923}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Xeryon-Rotator</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.0</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
