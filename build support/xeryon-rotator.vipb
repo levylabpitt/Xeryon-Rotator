@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2024-07-12 13:51:20" Creator="Patrick Irvin" Comments="" ID="47dc7f60a027df3cf8c4ace30f2bf150">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2024-07-12 14:18:13" Creator="Patrick Irvin" Comments="" ID="d48b2f89750b25c0588ced5779eab86f">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Xeryon_Rotator</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.1.2</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -32,13 +32,13 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>initial release</Release_Notes>
+      <Release_Notes>fix install location</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
         <LLB>false</LLB>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
-        <Path>&lt;instr.lib&gt;\Levylab\xeryon-rotator</Path>
+        <Path>&lt;user.lib&gt;\Levylab\xeryon-rotator</Path>
       </Toolkit_VIs>
       <Examples>
         <LLB>false</LLB>
@@ -267,7 +267,7 @@
         <Path>..\lvsrc\SMOs\Inst.Xeryon-Rotator\API\Set Scan State.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>066123135E3D91CC151AFC5474DB26C8</GUID>
+      <GUID>B744C9062D05E9CBD1E6030D4DB24BD8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
