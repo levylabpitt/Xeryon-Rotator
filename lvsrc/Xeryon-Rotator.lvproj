@@ -28,15 +28,13 @@
 				<Item Name="Example One Stage.vi" Type="VI" URL="../drivers/examples/Example One Stage.vi"/>
 				<Item Name="Example Two Stages.vi" Type="VI" URL="../drivers/examples/Example Two Stages.vi"/>
 				<Item Name="Example Three Stage.vi" Type="VI" URL="../drivers/examples/Example Three Stage.vi"/>
-				<Item Name="Example One Stage_Patrick_JKISM.vi" Type="VI" URL="../drivers/examples/Example One Stage_Patrick_JKISM.vi"/>
 				<Item Name="Example One Stage_Patrick.vi" Type="VI" URL="../drivers/examples/Example One Stage_Patrick.vi"/>
+				<Item Name="Example One Stage_Patrick_JKISM.vi" Type="VI" URL="../drivers/examples/Example One Stage_Patrick_JKISM.vi"/>
 			</Item>
 			<Item Name="settings" Type="Folder">
-				<Item Name="settings_default.txt" Type="Document" URL="../drivers/settings_default.txt"/>
-				<Item Name="settings_default_backup.txt" Type="Document" URL="../drivers/settings_default_backup.txt"/>
-				<Item Name="settings_default_rotate.txt" Type="Document" URL="../drivers/settings_default_rotate.txt"/>
-				<Item Name="settings_default_two_stage_example.txt" Type="Document" URL="../drivers/settings_default_two_stage_example.txt"/>
-				<Item Name="settings_default_xls.txt" Type="Document" URL="../drivers/settings_default_xls.txt"/>
+				<Item Name="settings_default_rotate.txt" Type="Document" URL="../drivers/settings/settings_default_rotate.txt"/>
+				<Item Name="settings_default_two_stage_example.txt" Type="Document" URL="../drivers/settings/settings_default_two_stage_example.txt"/>
+				<Item Name="settings_default_xls_two_stage.txt" Type="Document" URL="../drivers/settings/settings_default_xls_two_stage.txt"/>
 			</Item>
 		</Item>
 		<Item Name="Inst UI.Xeryon-Rotator.lvclass" Type="LVClass" URL="../SMOs/Inst UI.Xeryon-Rotator/Inst UI.Xeryon-Rotator.lvclass"/>
@@ -1406,11 +1404,9 @@
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/application/data</Property>
-				<Property Name="Destination[2].destName" Type="Str">Configuration</Property>
-				<Property Name="Destination[2].path" Type="Path">../builds/application/Configuration</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AF6786A1-FBB3-4C51-86AA-8B24ACCB0622}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6E66E609-1339-4366-A925-7DD68289CF12}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Inst.Xeryon-Rotator.lvclass/Inst.Xeryon-Rotator.AppLauncher.vi</Property>
@@ -1427,15 +1423,10 @@
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/drivers</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/drivers/Class</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/drivers/settings</Property>
-				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">University of Pittsburgh</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Xeryon-Rotator Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">Xeryon-Rotator Application</Property>
@@ -1450,11 +1441,15 @@
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{F86D6A21-D51A-4FFF-A54F-3F80330D1923}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">Configuration</Property>
-				<Property Name="Destination[1].parent" Type="Str">{F86D6A21-D51A-4FFF-A54F-3F80330D1923}</Property>
-				<Property Name="Destination[1].tag" Type="Str">{6E3F2E4F-CC2E-4FA8-8BD5-FB86E38B3331}</Property>
+				<Property Name="Destination[1].name" Type="Str">Xeryon</Property>
+				<Property Name="Destination[1].parent" Type="Str">{115F5F59-DED6-42E2-8467-4CD042208C47}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{DB9AE0C1-7A85-4403-B32C-D48528C6A68F}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[2].name" Type="Str">Settings</Property>
+				<Property Name="Destination[2].parent" Type="Str">{DB9AE0C1-7A85-4403-B32C-D48528C6A68F}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{489F348B-1224-4E73-9715-A5DCC24BE958}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{E60B4861-89AB-4E60-96C2-93AB25CC9AE4}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2019</Property>
@@ -1549,7 +1544,19 @@
 				<Property Name="Source[0].name" Type="Str">Xeryon-Rotator Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Xeryon-Rotator Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
+				<Property Name="Source[1].dest" Type="Str">{489F348B-1224-4E73-9715-A5DCC24BE958}</Property>
+				<Property Name="Source[1].name" Type="Str">settings_default_rotate.txt</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/drivers/settings/settings_default_rotate.txt</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{489F348B-1224-4E73-9715-A5DCC24BE958}</Property>
+				<Property Name="Source[2].name" Type="Str">settings_default_two_stage_example.txt</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/drivers/settings/settings_default_two_stage_example.txt</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[3].dest" Type="Str">{489F348B-1224-4E73-9715-A5DCC24BE958}</Property>
+				<Property Name="Source[3].name" Type="Str">settings_default_xls_two_stage.txt</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/drivers/settings/settings_default_xls_two_stage.txt</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 		</Item>
 	</Item>
