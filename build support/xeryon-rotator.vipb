@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2024-07-25 17:36:50" Creator="Patrick Irvin" Comments="" ID="fc7cf309dc814818753bc4723f743000">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2024-07-26 10:36:30" Creator="Patrick Irvin" Comments="" ID="f048724d3a4d1a38293cc42ac1cba445">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Xeryon_Rotator</Package_File_Name>
-    <Library_Version>1.0.2.5</Library_Version>
+    <Library_Version>1.0.3.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -32,7 +32,10 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- configuration file is now found by prompting user by default</Release_Notes>
+      <Release_Notes>Issue #3
+- fix shortcut name
+- change installation directory for configuration settins to %ProgramData%/Xeryon/Settings
+- change SettingsFileDialog to begin search in above directory</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -267,7 +270,7 @@
         <Path>..\lvsrc\SMOs\Inst.Xeryon-Rotator\API\Set Scan State.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2EEFAECF41FABFFDB31E92D0F2428030</GUID>
+      <GUID>36795514E3C2ECC94B8CC4BDA5DCC2A6</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

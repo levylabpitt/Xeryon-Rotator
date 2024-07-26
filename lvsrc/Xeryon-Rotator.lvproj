@@ -28,8 +28,13 @@
 				<Item Name="Example One Stage.vi" Type="VI" URL="../drivers/examples/Example One Stage.vi"/>
 				<Item Name="Example Two Stages.vi" Type="VI" URL="../drivers/examples/Example Two Stages.vi"/>
 				<Item Name="Example Three Stage.vi" Type="VI" URL="../drivers/examples/Example Three Stage.vi"/>
-				<Item Name="Example One Stage_Patrick_JKISM.vi" Type="VI" URL="../drivers/examples/Example One Stage_Patrick_JKISM.vi"/>
 				<Item Name="Example One Stage_Patrick.vi" Type="VI" URL="../drivers/examples/Example One Stage_Patrick.vi"/>
+				<Item Name="Example One Stage_Patrick_JKISM.vi" Type="VI" URL="../drivers/examples/Example One Stage_Patrick_JKISM.vi"/>
+			</Item>
+			<Item Name="settings" Type="Folder">
+				<Item Name="settings_default_rotate.txt" Type="Document" URL="../drivers/settings/settings_default_rotate.txt"/>
+				<Item Name="settings_default_two_stage_example.txt" Type="Document" URL="../drivers/settings/settings_default_two_stage_example.txt"/>
+				<Item Name="settings_default_xls_two_stage.txt" Type="Document" URL="../drivers/settings/settings_default_xls_two_stage.txt"/>
 			</Item>
 		</Item>
 		<Item Name="Inst UI.Xeryon-Rotator.lvclass" Type="LVClass" URL="../SMOs/Inst UI.Xeryon-Rotator/Inst UI.Xeryon-Rotator.lvclass"/>
@@ -1390,9 +1395,9 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D5126654-D31D-4BEB-B20E-5CC92D3E6ECE}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">2</Property>
+				<Property Name="Bld_version.patch" Type="Int">3</Property>
 				<Property Name="Destination[0].destName" Type="Str">Xeryon-Rotator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/application/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -1401,7 +1406,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A0AA4E1A-1F93-4D27-82C3-482FF7220457}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6E66E609-1339-4366-A925-7DD68289CF12}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Inst.Xeryon-Rotator.lvclass/Inst.Xeryon-Rotator.AppLauncher.vi</Property>
@@ -1418,7 +1423,7 @@
 				<Property Name="Source[4].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/drivers</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/drivers/Class</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
@@ -1436,7 +1441,15 @@
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{F86D6A21-D51A-4FFF-A54F-3F80330D1923}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="Destination[1].name" Type="Str">Xeryon</Property>
+				<Property Name="Destination[1].parent" Type="Str">{115F5F59-DED6-42E2-8467-4CD042208C47}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{DB9AE0C1-7A85-4403-B32C-D48528C6A68F}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[2].name" Type="Str">Settings</Property>
+				<Property Name="Destination[2].parent" Type="Str">{DB9AE0C1-7A85-4403-B32C-D48528C6A68F}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{489F348B-1224-4E73-9715-A5DCC24BE958}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{E60B4861-89AB-4E60-96C2-93AB25CC9AE4}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI Distributed System Manager 2019</Property>
@@ -1506,7 +1519,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{F86D6A21-D51A-4FFF-A54F-3F80330D1923}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Xeryon-Rotator</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.2</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
@@ -1523,7 +1536,7 @@
 				<Property Name="Source[0].File[0].dest" Type="Str">{F86D6A21-D51A-4FFF-A54F-3F80330D1923}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">Xeryon-Rotator.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Application</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Xeryon Rotator</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Xeryon-Rotator</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{DC482558-D075-4A55-9EF8-73315637EB81}</Property>
@@ -1531,7 +1544,19 @@
 				<Property Name="Source[0].name" Type="Str">Xeryon-Rotator Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Xeryon-Rotator Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
+				<Property Name="Source[1].dest" Type="Str">{489F348B-1224-4E73-9715-A5DCC24BE958}</Property>
+				<Property Name="Source[1].name" Type="Str">settings_default_rotate.txt</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/drivers/settings/settings_default_rotate.txt</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{489F348B-1224-4E73-9715-A5DCC24BE958}</Property>
+				<Property Name="Source[2].name" Type="Str">settings_default_two_stage_example.txt</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/drivers/settings/settings_default_two_stage_example.txt</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[3].dest" Type="Str">{489F348B-1224-4E73-9715-A5DCC24BE958}</Property>
+				<Property Name="Source[3].name" Type="Str">settings_default_xls_two_stage.txt</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/drivers/settings/settings_default_xls_two_stage.txt</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 		</Item>
 	</Item>
