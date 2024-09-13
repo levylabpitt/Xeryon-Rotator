@@ -23,6 +23,7 @@
 				<Item Name="Axis.lvclass" Type="LVClass" URL="../drivers/Class/Axis/Axis.lvclass"/>
 				<Item Name="Communication.lvclass" Type="LVClass" URL="../drivers/Class/Communication/Communication.lvclass"/>
 				<Item Name="Controller.lvclass" Type="LVClass" URL="../drivers/Class/Controller/Controller.lvclass"/>
+				<Item Name="Controller.LV.lvclass" Type="LVClass" URL="../SMOs/Controller.LV/Controller.LV.lvclass"/>
 			</Item>
 			<Item Name="examples" Type="Folder">
 				<Item Name="Example One Stage.vi" Type="VI" URL="../drivers/examples/Example One Stage.vi"/>
