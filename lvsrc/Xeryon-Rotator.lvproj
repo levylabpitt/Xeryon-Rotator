@@ -23,6 +23,7 @@
 				<Item Name="Axis.lvclass" Type="LVClass" URL="../drivers/Class/Axis/Axis.lvclass"/>
 				<Item Name="Communication.lvclass" Type="LVClass" URL="../drivers/Class/Communication/Communication.lvclass"/>
 				<Item Name="Controller.lvclass" Type="LVClass" URL="../drivers/Class/Controller/Controller.lvclass"/>
+				<Item Name="Controller.LV.lvclass" Type="LVClass" URL="../SMOs/Controller.LV/Controller.LV.lvclass"/>
 			</Item>
 			<Item Name="examples" Type="Folder">
 				<Item Name="Example One Stage.vi" Type="VI" URL="../drivers/examples/Example One Stage.vi"/>
@@ -1379,8 +1380,6 @@
 			<Item Name="IB_SRdB_Write.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB/IB_SRdB_Write.vi"/>
 			<Item Name="IB_SRdB_Unlock.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Builds/Installer/SRdB/IB_SRdB_Unlock.vi"/>
 			<Item Name="logosbrw.dll" Type="Document" URL="/&lt;resource&gt;/logosbrw.dll"/>
-			<Item Name="Parse Xeryon STAT.vi" Type="VI" URL="../SMOs/Inst.Xeryon-Rotator/Parse Xeryon STAT.vi"/>
-			<Item Name="CSV Data File Parser.vi" Type="VI" URL="../SMOs/Inst.Xeryon-Rotator/CSV Data File Parser.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Xeryon-Rotator Application" Type="EXE">
