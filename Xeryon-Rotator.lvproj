@@ -26,11 +26,9 @@
 				<Item Name="Controller.LV.lvclass" Type="LVClass" URL="../lvsrc/SMOs/Controller.LV/Controller.LV.lvclass"/>
 			</Item>
 			<Item Name="examples" Type="Folder">
-				<Item Name="Example One Stage.vi" Type="VI" URL="../lvsrc/drivers/examples/Example One Stage.vi"/>
-				<Item Name="Example Two Stages.vi" Type="VI" URL="../lvsrc/drivers/examples/Example Two Stages.vi"/>
-				<Item Name="Example Three Stage.vi" Type="VI" URL="../lvsrc/drivers/examples/Example Three Stage.vi"/>
-				<Item Name="Example One Stage_Patrick.vi" Type="VI" URL="../lvsrc/drivers/examples/Example One Stage_Patrick.vi"/>
-				<Item Name="Example One Stage_Patrick_JKISM.vi" Type="VI" URL="../lvsrc/drivers/examples/Example One Stage_Patrick_JKISM.vi"/>
+				<Item Name="Example One Stage.vi" Type="VI" URL="../lvsrc/drivers/Example One Stage.vi"/>
+				<Item Name="Example Three Stage.vi" Type="VI" URL="../lvsrc/drivers/Example Three Stage.vi"/>
+				<Item Name="Example Two Stages.vi" Type="VI" URL="../lvsrc/drivers/Example Two Stages.vi"/>
 			</Item>
 			<Item Name="settings" Type="Folder">
 				<Item Name="settings_default_rotate.txt" Type="Document" URL="../lvsrc/drivers/settings/settings_default_rotate.txt"/>
