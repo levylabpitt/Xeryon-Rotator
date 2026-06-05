@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-06-04 23:31:14" Creator="Patrick Irvin" Comments="" ID="b1b0d0476c049f854b409ee093b157ca">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-06-05 13:05:27" Creator="Patrick Irvin" Comments="" ID="970b345800ee04d7494d912fe9ec4d97">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Xeryon_Rotator</Package_File_Name>
-    <Library_Version>1.0.5.12</Library_Version>
+    <Library_Version>1.0.6.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>#8 Instrument Framework 1.15.12 (from ca 1.13)</Release_Notes>
+      <Release_Notes>- fix database log data</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -269,7 +269,7 @@
         <Path>..\lvsrc\SMOs\Inst.Xeryon-Rotator\API\Set Scan State.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9E42F9C94FC120519C673503532EB9A9</GUID>
+      <GUID>ECCAFFBB4E492E57B8DAE284BBBA4AD8</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
