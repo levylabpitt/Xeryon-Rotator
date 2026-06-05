@@ -1,0 +1,10 @@
+Override candidates:
+
+Controller.lvclass:readSettingsFile.vi --> need "getAxisArray"...can use getAxisObject. need to keep track of how many axis and names ourselves
+ - search for config file
+Controller.lvclass:receiveData.vi
+ - read until TIME tag found (loop receive data until getDataCluster.vi = new TIME value?
+Controller.lvclass:getStatusBits.vi  --> not override, new method "getAllStatusBits"
+- Axis.lvclass:getStatusBits.vi --> no need to override?
+  - get all of the bits!
+  - use Axis.lvclass:getDataCluster.vi to read STAT word
