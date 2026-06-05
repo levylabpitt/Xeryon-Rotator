@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2024-07-29 17:47:28" Creator="Patrick Irvin" Comments="" ID="78f793bb5a88ba8cd79868f22886e87a">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-06-04 21:37:26" Creator="Patrick Irvin" Comments="" ID="7ca60fed552bd376af85aa71ad337b7f">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Xeryon_Rotator</Package_File_Name>
-    <Library_Version>1.0.4.8</Library_Version>
+    <Library_Version>1.0.5.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -16,7 +16,9 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies/>
+    <Package_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.12.53</Additional_External_Dependencies>
+    </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI>Post-Build Custom Action.vi</Post-Build_VI>
@@ -32,7 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>Issue #4 and #5: UI improvements</Release_Notes>
+      <Release_Notes>#8 Instrument Framework 1.15.12 (from ca 1.13)</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -267,7 +269,7 @@
         <Path>..\lvsrc\SMOs\Inst.Xeryon-Rotator\API\Set Scan State.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>75B8C97E968BD49AA65FF410BE127EEB</GUID>
+      <GUID>3C5F89EE83CDEA2DCB26A9F2290B62AA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
