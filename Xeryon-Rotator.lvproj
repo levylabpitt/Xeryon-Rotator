@@ -31,9 +31,9 @@
 				<Item Name="Example Two Stages.vi" Type="VI" URL="../lvsrc/drivers/Example Two Stages.vi"/>
 			</Item>
 			<Item Name="settings" Type="Folder">
-				<Item Name="settings_default_rotate.txt" Type="Document" URL="../lvsrc/drivers/settings/settings_default_rotate.txt"/>
-				<Item Name="settings_default_two_stage_example.txt" Type="Document" URL="../lvsrc/drivers/settings/settings_default_two_stage_example.txt"/>
-				<Item Name="settings_default_xls_two_stage.txt" Type="Document" URL="../lvsrc/drivers/settings/settings_default_xls_two_stage.txt"/>
+				<Item Name="settings_default_rotate.txt" Type="Document" URL="../lvsrc/settings/settings_default_rotate.txt"/>
+				<Item Name="settings_default_two_stage_example.txt" Type="Document" URL="../lvsrc/settings/settings_default_two_stage_example.txt"/>
+				<Item Name="settings_default_xls_two_stage.txt" Type="Document" URL="../lvsrc/settings/settings_default_xls_two_stage.txt"/>
 			</Item>
 		</Item>
 		<Item Name="Inst UI.Xeryon-Rotator.lvclass" Type="LVClass" URL="../lvsrc/SMOs/Inst UI.Xeryon-Rotator/Inst UI.Xeryon-Rotator.lvclass"/>
@@ -1663,7 +1663,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D5126654-D31D-4BEB-B20E-5CC92D3E6ECE}</Property>
-				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.build" Type="Int">11</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Xeryon-Rotator.exe</Property>
@@ -1676,7 +1676,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/build support/icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{4261A8A9-EF6E-4940-B8A2-98DF271FEFAA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E7CD7650-B0D9-4520-A58A-50DFA3998E07}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Inst.Xeryon-Rotator.lvclass/Inst.Xeryon-Rotator.AppLauncher.vi</Property>
