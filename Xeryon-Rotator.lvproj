@@ -34,6 +34,65 @@
 				<Item Name="settings_default_two_stage_example.txt" Type="Document" URL="../lvsrc/settings/settings_default_two_stage_example.txt"/>
 				<Item Name="settings_default_xls_two_stage.txt" Type="Document" URL="../lvsrc/settings/settings_default_xls_two_stage.txt"/>
 			</Item>
+			<Item Name="v0.3" Type="Folder">
+				<Item Name="Axis driver" Type="Folder">
+					<Item Name="Add stage type info.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Add stage type info.vi"/>
+					<Item Name="Axis ref manager.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Axis ref manager.vi"/>
+					<Item Name="Xeryon add drive letter.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon add drive letter.vi"/>
+					<Item Name="Xeryon Arange Parameters.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon Arange Parameters.vi"/>
+					<Item Name="Xeryon Axis command.ctl" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon Axis command.ctl"/>
+					<Item Name="Xeryon Axis driver.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon Axis driver.vi"/>
+					<Item Name="Xeryon Axis receive command.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon Axis receive command.vi"/>
+					<Item Name="Xeryon Axis SendCommand.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon Axis SendCommand.vi"/>
+					<Item Name="Xeryon build statusbits array.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon build statusbits array.vi"/>
+					<Item Name="Xeryon convert stage type.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon convert stage type.vi"/>
+					<Item Name="Xeryon convert statusbits.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon convert statusbits.vi"/>
+					<Item Name="Xeryon filter commands.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon filter commands.vi"/>
+					<Item Name="Xeryon process command.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon process command.vi"/>
+					<Item Name="Xeryon SetDPos command.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon SetDPos command.vi"/>
+					<Item Name="Xeryon status bits.ctl" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon status bits.ctl"/>
+					<Item Name="Xeryon unit conversion.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis driver/Xeryon unit conversion.vi"/>
+				</Item>
+				<Item Name="Axis Manager" Type="Folder">
+					<Item Name="Axis config.ctl" Type="VI" URL="../lvsrc/drivers/v0.3/Axis Manager/Axis config.ctl"/>
+					<Item Name="Axis enum.ctl" Type="VI" URL="../lvsrc/drivers/v0.3/Axis Manager/Axis enum.ctl"/>
+					<Item Name="Axis Manager.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis Manager/Axis Manager.vi"/>
+					<Item Name="Drive type properties.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis Manager/Drive type properties.vi"/>
+					<Item Name="Overzicht axes.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis Manager/Overzicht axes.vi"/>
+					<Item Name="Read config file.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis Manager/Read config file.vi"/>
+					<Item Name="Remove driveletter on 1 axis system.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Axis Manager/Remove driveletter on 1 axis system.vi"/>
+				</Item>
+				<Item Name="Preferences" Type="Folder">
+					<Item Name="COM-port.txt" Type="Document" URL="../lvsrc/drivers/v0.3/Preferences/COM-port.txt"/>
+					<Item Name="config.txt" Type="Document" URL="../lvsrc/drivers/v0.3/Preferences/config.txt"/>
+					<Item Name="Multi axis file.txt" Type="Document" URL="../lvsrc/drivers/v0.3/Preferences/Multi axis file.txt"/>
+					<Item Name="Single axis linear.txt" Type="Document" URL="../lvsrc/drivers/v0.3/Preferences/Single axis linear.txt"/>
+					<Item Name="Single axis rotary.txt" Type="Document" URL="../lvsrc/drivers/v0.3/Preferences/Single axis rotary.txt"/>
+				</Item>
+				<Item Name="Sequencer" Type="Folder">
+					<Item Name="Sequencer mode.ctl" Type="VI" URL="../lvsrc/drivers/v0.3/Sequencer/Sequencer mode.ctl"/>
+					<Item Name="Sequencer.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Sequencer/Sequencer.vi"/>
+				</Item>
+				<Item Name="Serial driver" Type="Folder">
+					<Item Name="Process serial data.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Process serial data.vi"/>
+					<Item Name="Serial parameters.ctl" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Serial parameters.ctl"/>
+					<Item Name="Xeryon Enter COM Port number.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Xeryon Enter COM Port number.vi"/>
+					<Item Name="Xeryon Read COM port number.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Xeryon Read COM port number.vi"/>
+					<Item Name="Xeryon send serial data.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Xeryon send serial data.vi"/>
+					<Item Name="Xeryon serial command.ctl" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Xeryon serial command.ctl"/>
+					<Item Name="Xeryon serial data buffer.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Xeryon serial data buffer.vi"/>
+					<Item Name="Xeryon serial driver.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Xeryon serial driver.vi"/>
+					<Item Name="Xeryon serial receive command.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Xeryon serial receive command.vi"/>
+					<Item Name="Xeryon serial SendCommand.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Xeryon serial SendCommand.vi"/>
+				</Item>
+				<Item Name="Dynamic multi axis example.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Dynamic multi axis example.vi"/>
+				<Item Name="README.txt" Type="Document" URL="../lvsrc/drivers/v0.3/README.txt"/>
+				<Item Name="Static dual axis example.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Static dual axis example.vi"/>
+				<Item Name="Static single axis example.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Static single axis example.vi"/>
+				<Item Name="Xeryon Example project.aliases" Type="Document" URL="../lvsrc/drivers/v0.3/Xeryon Example project.aliases"/>
+				<Item Name="Xeryon Example project.lvlps" Type="Document" URL="../lvsrc/drivers/v0.3/Xeryon Example project.lvlps"/>
+				<Item Name="Xeryon Example project.lvproj" Type="Document" URL="../lvsrc/drivers/v0.3/Xeryon Example project.lvproj"/>
+			</Item>
 		</Item>
 		<Item Name="Inst UI.Xeryon-Rotator.lvclass" Type="LVClass" URL="../lvsrc/SMOs/Inst UI.Xeryon-Rotator/Inst UI.Xeryon-Rotator.lvclass"/>
 		<Item Name="Inst.Xeryon-Rotator.lvclass" Type="LVClass" URL="../lvsrc/SMOs/Inst.Xeryon-Rotator/Inst.Xeryon-Rotator.lvclass"/>
@@ -227,6 +286,7 @@
 				<Item Name="Epoch.DecomposeFractional.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Open Source Project/Epoch Date &amp; Time/Epoch.DecomposeFractional.vi"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
 				<Item Name="URI.lvlib" Type="Library" URL="/&lt;vilib&gt;/JKI/JKI SMO/URI Parsing/URI.lvlib"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Tick Count (ms)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/time/time.llb/Tick Count (ms)__ogtk.vi"/>
