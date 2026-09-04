@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-09-04 16:02:45" Creator="Patrick Irvin" Comments="" ID="422ad9c20f68102a5a4ec33de61927b2">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-09-04 16:11:10" Creator="Patrick Irvin" Comments="" ID="0f54d951a2a2d07873968894e9c9ccb1">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Xeryon_Rotator</Package_File_Name>
-    <Library_Version>1.1.0.15</Library_Version>
+    <Library_Version>1.1.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -301,7 +301,7 @@ Removed
         <Path>..\lvsrc\SMOs\Inst.Xeryon-Rotator\API\getAngle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E63DB0038768648FA13DABD88C640C27</GUID>
+      <GUID>DB2E25E4DC3E54A15DF8570E8ADE758B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
