@@ -1,75 +1,55 @@
-
-% S_202312_007-XRT-U-40-3-D3571
-% For use with Windows Interface V4_2_65
-% payload: 	
-% environment: 	
-
-INFO=4
-POLI=97
-FREQ=173000
-FRQ2=170000
-HFRQ=176000
-LFRQ=167000
-PATH=1
-PROP=120
-PRO2=120
-MPRO=250
-INTF=15
-MASS=200
-MMAS=1000
-ZON1=0.01
-ZON2=1
-
-MSPD=360
-SSPD=180
-ISPD=10
-ACCE=65500
-DECE=255
-
-ILIM=10000
-ELIM=0%170000
-SLIM=500000
-ENCD=1
-ACTD=1
-ENCO=0
-
-PTOL=10
-PTO2=20
-TOUT=1000
-TOU2=60
-TOU3=0
-
-PHAC=0
-PHAS=90
-DUCO=0
-MIMP=20
-MAMP=45
-AMPL=45
-DUTY=32768
-OFSA=0
-OFSB=0
-SQEZ=0
-FILE=0
-FILG=0
-FILA=1
-FILP=1
-COMP=0
-DLAY=10
-
-DTIM=0
-ECHO=0
-INDA=1
-ENBR=1
-ENBL=0
-GPIO=0
-PLIM=0
-UART=0
-PWMF=1000
-TRGS=0
-TRGW=0
-TRGP=0
-TRGN=0
-STPS=1
-
-LEAD=0
-FLAG=0
+PORT=4	% Default COM-port
+BAUD=9600	% Baudrate
+UART=0	% Baudrate for UART
+HELP=0	% Tool tips on (1) or off (0)
+POLI=97	% Polling interval (ms)
+ENCO=0	% Encoder offset
+ENCD=1	% Encoder direction (0 or 1)
+ACTD=1	% Actuator direction (0 or 1)
+AMPL=45	% Open-loop amplitude (volt) 
+MAMP=45	% Maximum closed-loop amplitude (volt)
+MIMP=20	% Minimum closed-loop amplitude (volt)
+ZON1=0.010026	% Size of zone 1
+ZON2=1	% Size of zone 2
+PROP=120	% Proportional control factor for zone 1
+PRO2=120	% Proportional control factor for zone 2
+INTF=15	% Integrational control factor
+PTOL=10	% Positioning tolerance (encoder units)
+PTO2=20	% Positioning tolerance 2 (encoder units)
+TOUT=1000	% Timeout time (ms)
+TOU2=0	% Timeout time 2 (ms)
+TOU3=0	% Timeout time 3 (ms)
+DTIM=0	% Dead time 
+BLCK=0	%  Block 
+FILE=0	% Filter encoder
+FILG=0	% Filter glitch
+ELIM=0	% Error limit (encoder units)
+ILIM=10000	% Index error limit (encoder units)
+SLIM=500000	% Error saturation limit (encoder units)
+DLAY=10	% Position reached delay (ms)
+DPOL=50	% Polling delay (ms)
+FILA=1	% Filter amplitude
+FILP=1	% Filter phase
+MASS=300	% Rotational inertia of load (kg.m2)
+LLIM=-180	% Left soft position limit (deg)
+HLIM=180	% Right soft position limit (deg)
+PATH=0	% Follow shortest path (1) or not (0)
+SSPD=10	% Speed (0.01 deg/s)
+ISPD=1000	% Index searching speed (0.01 deg/s)
+ACCE=255	% Acceleration (mm/s2)
+DECE=255	% Deceleration
+HFRQ=176000	% Upper frequency limit (Hz)
+LFRQ=167000	% Lower frequency limit (Hz)
+FREQ=173000	% Excitation frequency for zone 1 (Hz)
+FRQ2=170000	% Excitation frequency for zone 2 (Hz)
+OFSA=0	% Offset channel A (volt)
+OFSB=0	% Offset channel B (volt)
+COMP=0	% Active compensation percentage
+DUTY=32768	% Duty factor: 0 - 65535
+DUCO=0	% Duty control on (1) or off (0)
+PHAC=0	% Phase correction: -180 - +180
+GPIO=0	% GPIO inputs & outputs enable/disable
+TRGP=0	% Trigger pitch
+TRGW=0	% Trigger width
+TRGS=0	% Trigger start
+TRGN=0	% Number of trigger pulses

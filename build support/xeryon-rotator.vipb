@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-07-09 07:07:29" Creator="Patrick Irvin" Comments="" ID="df59aa8a6a097ab2a9a2b60d3c2bdbee">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-09-04 16:11:10" Creator="Patrick Irvin" Comments="" ID="0f54d951a2a2d07873968894e9c9ccb1">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Xeryon_Rotator</Package_File_Name>
-    <Library_Version>1.0.7.14</Library_Version>
+    <Library_Version>1.1.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -21,7 +21,7 @@
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
-      <Post-Build_VI>Post-Build Custom Action.vi</Post-Build_VI>
+      <Post-Build_VI/>
       <Pre-Install_VI/>
       <Post-Install_VI/>
       <Pre-Uninstall_VI/>
@@ -34,8 +34,21 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- add better support for HELP command
-- remove deprecated VIs from palette</Release_Notes>
+      <Release_Notes>Fixed
+- Reworked serial communication so the driver reads the entire buffer instead of one line per call. Fixes the unbounded Bytes at Port growth and stale position readings.
+- Received axis data is no longer discarded on its way out of the parse loop.
+- Soft limits and zone widths were being sent 57x too large, which left both end-stop bits set and the stage refusing to move.
+- =? queries no longer overwrite the parameter they query. HLIM=? previously wrote HLIM=0.
+- MIMP and the OFSA/OFSB offsets are now scaled correctly; MASS to CFRQ restored to its full six-step table.
+
+Changed
+- Axes are stored in a map keyed by axis letter, with resolution centralised in one method that errors rather than guessing when the axis is ambiguous.
+- Amplitude and phase scale factors are derived on the diagram instead of appearing as unexplained constants.
+- Settings file parser rewritten to handle comments and decimal values.
+
+Removed
+- The Controller.LV:receiveData override and its unbounded blocking wait, which could hang the process loop.
+- Controller:setSpeed deprecated: it applies a position conversion to a speed.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -114,6 +127,24 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
+      <Exclusions>
+        <Path>drivers/v0.3</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>drivers/Example Three Stage.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>drivers/Example Two Stages.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>drivers/settings_default.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>drivers/settings_default_two_stage_example.txt</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>drivers/Xeryon.lvproj</Path>
+      </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>..\LICENSE</License_Agreement_Filepath>
     <Licensing_and_Activation>
@@ -270,7 +301,7 @@
         <Path>..\lvsrc\SMOs\Inst.Xeryon-Rotator\API\getAngle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00F2EC5466EEC238A7AF2236A055125E</GUID>
+      <GUID>DB2E25E4DC3E54A15DF8570E8ADE758B</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
