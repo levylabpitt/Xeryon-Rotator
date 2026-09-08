@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-09-08 17:07:52" Creator="Patrick Irvin" Comments="" ID="c1dbbd038366b13b24d42d3416c55426">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-09-08 17:38:49" Creator="Patrick Irvin" Comments="" ID="af0b69d2b15891d6e9a6954dc52adb0f">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Xeryon_Rotator</Package_File_Name>
-    <Library_Version>1.1.2.25</Library_Version>
+    <Library_Version>1.1.3.26</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -34,10 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>Fixes
-- change default Baud = 9600
-- change settings installation location
-- SettingsFileDialog: add check for exsiting files and copy from Application directory if they don't exist</Release_Notes>
+      <Release_Notes>- move serial parameters.ctl</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -118,9 +115,6 @@
       </Namespace_Overrides>
       <Exclusions>
         <Path>drivers/v0.3</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>drivers/Example Three Stage.vi</Path>
       </Exclusions>
       <Exclusions>
         <Path>drivers/settings_default.txt</Path>
@@ -287,7 +281,7 @@
         <Path>..\lvsrc\SMOs\Inst.Xeryon-Rotator\API\getAngle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>92F8C51823674975B80FB3BD87ED5392</GUID>
+      <GUID>62745D152E663856B373CC4085F3E40F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
