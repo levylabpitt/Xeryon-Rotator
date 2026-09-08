@@ -623,27 +623,19 @@
 				<Property Name="Source[0].name" Type="Str">Xeryon-Rotator Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Xeryon-Rotator Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="Source[1].dest" Type="Str">{22B85C0A-4B0D-41F3-9736-A5E65DA9E746}</Property>
-				<Property Name="Source[1].name" Type="Str">settings_default_two_stage_example.txt</Property>
-				<Property Name="Source[1].tag" Type="Ref">/My Computer/drivers/settings/settings_default_two_stage_example.txt</Property>
+				<Property Name="Source[1].dest" Type="Str">{3394E7C7-6B1A-4E25-AEC1-9CFF90EB040C}</Property>
+				<Property Name="Source[1].name" Type="Str">settings_default_rotate.txt</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/drivers/settings/settings_default_rotate.txt</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[2].dest" Type="Str">{22B85C0A-4B0D-41F3-9736-A5E65DA9E746}</Property>
-				<Property Name="Source[2].name" Type="Str">settings_default_xls_two_stage.txt</Property>
-				<Property Name="Source[2].tag" Type="Ref">/My Computer/drivers/settings/settings_default_xls_two_stage.txt</Property>
+				<Property Name="Source[2].dest" Type="Str">{3394E7C7-6B1A-4E25-AEC1-9CFF90EB040C}</Property>
+				<Property Name="Source[2].name" Type="Str">settings_default_two_stage_example.txt</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/drivers/settings/settings_default_two_stage_example.txt</Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
 				<Property Name="Source[3].dest" Type="Str">{3394E7C7-6B1A-4E25-AEC1-9CFF90EB040C}</Property>
-				<Property Name="Source[3].name" Type="Str">settings_default_rotate.txt</Property>
-				<Property Name="Source[3].tag" Type="Ref">/My Computer/drivers/settings/settings_default_rotate.txt</Property>
+				<Property Name="Source[3].name" Type="Str">settings_default_xls_two_stage.txt</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/drivers/settings/settings_default_xls_two_stage.txt</Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>
-				<Property Name="Source[4].dest" Type="Str">{3394E7C7-6B1A-4E25-AEC1-9CFF90EB040C}</Property>
-				<Property Name="Source[4].name" Type="Str">settings_default_two_stage_example.txt</Property>
-				<Property Name="Source[4].tag" Type="Ref">/My Computer/drivers/settings/settings_default_two_stage_example.txt</Property>
-				<Property Name="Source[4].type" Type="Str">File</Property>
-				<Property Name="Source[5].dest" Type="Str">{3394E7C7-6B1A-4E25-AEC1-9CFF90EB040C}</Property>
-				<Property Name="Source[5].name" Type="Str">settings_default_xls_two_stage.txt</Property>
-				<Property Name="Source[5].tag" Type="Ref">/My Computer/drivers/settings/settings_default_xls_two_stage.txt</Property>
-				<Property Name="Source[5].type" Type="Str">File</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
 			</Item>
 		</Item>
 	</Item>
