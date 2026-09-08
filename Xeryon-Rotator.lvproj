@@ -26,7 +26,6 @@
 			</Item>
 			<Item Name="examples" Type="Folder">
 				<Item Name="Example One Stage.vi" Type="VI" URL="../lvsrc/drivers/Example One Stage.vi"/>
-				<Item Name="Example Two Stages.vi" Type="VI" URL="../lvsrc/drivers/Example Two Stages.vi"/>
 				<Item Name="Example Three Stage.vi" Type="VI" URL="../lvsrc/drivers/Example Three Stage.vi"/>
 			</Item>
 			<Item Name="settings" Type="Folder">
