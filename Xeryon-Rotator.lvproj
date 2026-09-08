@@ -74,7 +74,6 @@
 				</Item>
 				<Item Name="Serial driver" Type="Folder">
 					<Item Name="Process serial data.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Process serial data.vi"/>
-					<Item Name="Serial parameters.ctl" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Serial parameters.ctl"/>
 					<Item Name="Xeryon Enter COM Port number.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Xeryon Enter COM Port number.vi"/>
 					<Item Name="Xeryon Read COM port number.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Xeryon Read COM port number.vi"/>
 					<Item Name="Xeryon send serial data.vi" Type="VI" URL="../lvsrc/drivers/v0.3/Serial driver/Xeryon send serial data.vi"/>
