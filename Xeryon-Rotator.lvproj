@@ -486,10 +486,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D5126654-D31D-4BEB-B20E-5CC92D3E6ECE}</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">1</Property>
+				<Property Name="Bld_version.patch" Type="Int">2</Property>
 				<Property Name="Destination[0].destName" Type="Str">Xeryon-Rotator.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/Application/NI_AB_PROJECTNAME.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
@@ -535,22 +535,11 @@
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{F86D6A21-D51A-4FFF-A54F-3F80330D1923}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">Xeryon</Property>
-				<Property Name="Destination[1].parent" Type="Str">{115F5F59-DED6-42E2-8467-4CD042208C47}</Property>
-				<Property Name="Destination[1].tag" Type="Str">{DB9AE0C1-7A85-4403-B32C-D48528C6A68F}</Property>
+				<Property Name="Destination[1].name" Type="Str">Settings</Property>
+				<Property Name="Destination[1].parent" Type="Str">{F86D6A21-D51A-4FFF-A54F-3F80330D1923}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{3394E7C7-6B1A-4E25-AEC1-9CFF90EB040C}</Property>
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[2].name" Type="Str">Settings</Property>
-				<Property Name="Destination[2].parent" Type="Str">{DB9AE0C1-7A85-4403-B32C-D48528C6A68F}</Property>
-				<Property Name="Destination[2].tag" Type="Str">{489F348B-1224-4E73-9715-A5DCC24BE958}</Property>
-				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[3].name" Type="Str">LocalAppDataFolder </Property>
-				<Property Name="Destination[3].tag" Type="Str">{42434DBF-81D1-487C-BC5D-FD458B720AEB}</Property>
-				<Property Name="Destination[3].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[4].name" Type="Str">Xeryon</Property>
-				<Property Name="Destination[4].parent" Type="Str">{42434DBF-81D1-487C-BC5D-FD458B720AEB}</Property>
-				<Property Name="Destination[4].tag" Type="Str">{22B85C0A-4B0D-41F3-9736-A5E65DA9E746}</Property>
-				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">5</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{727FC9D0-D89C-4872-9428-F98F0862F735}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI-488.2 Runtime 19.5</Property>
@@ -609,7 +598,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{F86D6A21-D51A-4FFF-A54F-3F80330D1923}</Property>
 				<Property Name="INST_installerName" Type="Str">setup.exe</Property>
 				<Property Name="INST_productName" Type="Str">Xeryon-Rotator</Property>
-				<Property Name="INST_productVersion" Type="Str">1.1.1</Property>
+				<Property Name="INST_productVersion" Type="Str">1.1.2</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">19018009</Property>
 				<Property Name="MSI_arpCompany" Type="Str">University of Pittsburgh</Property>
@@ -634,15 +623,15 @@
 				<Property Name="Source[0].name" Type="Str">Xeryon-Rotator Application</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Xeryon-Rotator Application</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="Source[1].dest" Type="Str">{22B85C0A-4B0D-41F3-9736-A5E65DA9E746}</Property>
+				<Property Name="Source[1].dest" Type="Str">{3394E7C7-6B1A-4E25-AEC1-9CFF90EB040C}</Property>
 				<Property Name="Source[1].name" Type="Str">settings_default_rotate.txt</Property>
 				<Property Name="Source[1].tag" Type="Ref">/My Computer/drivers/settings/settings_default_rotate.txt</Property>
 				<Property Name="Source[1].type" Type="Str">File</Property>
-				<Property Name="Source[2].dest" Type="Str">{22B85C0A-4B0D-41F3-9736-A5E65DA9E746}</Property>
+				<Property Name="Source[2].dest" Type="Str">{3394E7C7-6B1A-4E25-AEC1-9CFF90EB040C}</Property>
 				<Property Name="Source[2].name" Type="Str">settings_default_two_stage_example.txt</Property>
 				<Property Name="Source[2].tag" Type="Ref">/My Computer/drivers/settings/settings_default_two_stage_example.txt</Property>
 				<Property Name="Source[2].type" Type="Str">File</Property>
-				<Property Name="Source[3].dest" Type="Str">{22B85C0A-4B0D-41F3-9736-A5E65DA9E746}</Property>
+				<Property Name="Source[3].dest" Type="Str">{3394E7C7-6B1A-4E25-AEC1-9CFF90EB040C}</Property>
 				<Property Name="Source[3].name" Type="Str">settings_default_xls_two_stage.txt</Property>
 				<Property Name="Source[3].tag" Type="Ref">/My Computer/drivers/settings/settings_default_xls_two_stage.txt</Property>
 				<Property Name="Source[3].type" Type="Str">File</Property>

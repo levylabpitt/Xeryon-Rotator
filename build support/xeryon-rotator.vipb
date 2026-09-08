@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-09-08 10:33:55" Creator="Patrick Irvin" Comments="" ID="70cd31360f9df986574ed003130902cf">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-09-08 16:34:13" Creator="Patrick Irvin" Comments="" ID="dfea82eea420c96ed4edeead7aedcfb9">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Xeryon_Rotator</Package_File_Name>
-    <Library_Version>1.1.1.18</Library_Version>
+    <Library_Version>1.1.2.21</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -35,13 +35,9 @@
       <Packager/>
       <URL/>
       <Release_Notes>Fixes
-- deleted Example Two Stages.vi
-- removed diagram disable structures from Open Hardward.vi (remove INDX=0 call)
-- removed shift registers and add merge errors to receiveData.vi
-- changed default SSPD=1000
-- removed dead code convertMilliMeterToEncoderUnits, Private/Inst.Xeryon-Rotator.Stop.vi, , Private/Inst.Xeryon-Rotator.DoSomething.vi, Axis/TEMPORARY getReceivedString.vi
-- removed Axis Letters: [String] from Controller.LV.lvclass; delete overrides AddAxis.vi and readSettingsFile.vi; modify readSettingsFile.vi to prompt user for path
-</Release_Notes>
+- change default Baud = 9600
+- change settings installation location
+- SettingsFileDialog: add check for exsiting files and copy from Application directory if they don't exist</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -291,7 +287,7 @@
         <Path>..\lvsrc\SMOs\Inst.Xeryon-Rotator\API\getAngle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DE8A558D98C4EF282FD5598D8969EBEA</GUID>
+      <GUID>C9A8DE6598CFA050C436E486E626B886</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
