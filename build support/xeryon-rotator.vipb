@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-09-08 17:38:49" Creator="Patrick Irvin" Comments="" ID="af0b69d2b15891d6e9a6954dc52adb0f">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-09-21 14:40:17" Creator="Patrick Irvin" Comments="" ID="6ad6592e87085f80caf77c18c2fcfd2d">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Xeryon_Rotator</Package_File_Name>
-    <Library_Version>1.1.3.26</Library_Version>
+    <Library_Version>1.1.4.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.12.53</Additional_External_Dependencies>
+      <Additional_External_Dependencies>levylab_lib_levylab_instruments &gt;=1.15.13.55</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- move serial parameters.ctl</Release_Notes>
+      <Release_Notes>- Instrument Framework 1.15.13</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -281,7 +281,7 @@
         <Path>..\lvsrc\SMOs\Inst.Xeryon-Rotator\API\getAngle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>62745D152E663856B373CC4085F3E40F</GUID>
+      <GUID>DC70392B6175A7AF7065B1C482AEB2FA</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
