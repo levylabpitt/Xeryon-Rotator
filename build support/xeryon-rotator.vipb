@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-09-21 14:40:17" Creator="Patrick Irvin" Comments="" ID="6ad6592e87085f80caf77c18c2fcfd2d">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2024-07-12 10:34:41" Modified_Date="2026-10-01 19:05:42" Creator="Patrick Irvin" Comments="" ID="7c2dbac612cf2468ac0835407fdacf1a">
   <Library_General_Settings>
     <Package_File_Name>Levylab_lib_Xeryon_Rotator</Package_File_Name>
-    <Library_Version>1.1.4.28</Library_Version>
+    <Library_Version>1.1.5.29</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\lvsrc</Library_Source_Folder>
     <Library_Output_Folder>..\builds\package</Library_Output_Folder>
@@ -34,7 +34,7 @@
       <Copyright/>
       <Packager/>
       <URL/>
-      <Release_Notes>- Instrument Framework 1.15.13</Release_Notes>
+      <Release_Notes>- Built with the Logger.Error release that fixes levylabpitt/Logger.Error #1 (the logger's CPU use grew with uptime).</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -281,7 +281,7 @@
         <Path>..\lvsrc\SMOs\Inst.Xeryon-Rotator\API\getAngle.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DC70392B6175A7AF7065B1C482AEB2FA</GUID>
+      <GUID>9695BBD6C21342A10490307383CD3800</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
